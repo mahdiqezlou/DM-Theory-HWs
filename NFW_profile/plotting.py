@@ -110,7 +110,7 @@ def g_func(c):
     return g
 
 def rho_crit():
-    return us.rho_crit(us.hubble(z=0., omegam0 = 0.3))
+    return (3*((70/(3.086*10**(19))))**2)/(8*3.14*6.67*10**(-8))
 
 
 def get_r_vir(M_vir, c):
